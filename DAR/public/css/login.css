@@ -1,0 +1,27 @@
+.container{
+    position:absolute;
+    top:28%;
+    left:8%;
+}
+
+.container .panel-heading{
+    background-color:#2e7d32;
+    color:white;
+}
+.panel-body input[type="text"]{
+    margin:5% 0 10% 0;
+}
+.panel-body input[type="password"]{
+    margin:5% 0 10% 0;
+}
+.container .panel-title{
+    font-weight: bold;
+}
+.btn-yg, .btn-yg:hover{
+    background-color:#2e7d32;
+    color:white;
+}
+#remember{
+    font-weight: bold;
+    color:black;
+}

@@ -1,0 +1,23 @@
+Username: Teresita
+Password: 012345678
+
+Configuration
+If you're using xampp
+Steps:
+1. Open your notepad as administrator
+2. Open httpd-vhosts.conf that is located on xampp/apache/conf/extra
+3. Paste this on the very bottom.
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/your-folder-name"
+    ServerName dar.org
+</VirtualHost>
+4. Save It.
+5. Open a new notepad as administrator again.
+6. Open hosts file that is located on C:Windows(C:)/Windows/System32/drivers/etc
+7. Paste this on the very bottom.
+	127.0.0.1 dar.org
+8. Restart Xampp
+9. Open Chrome and Type dar.org
+
+To use the database
+Check arb_reached/controller/connectdb.php

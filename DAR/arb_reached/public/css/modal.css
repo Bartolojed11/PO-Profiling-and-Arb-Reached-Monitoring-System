@@ -1,0 +1,37 @@
+.modal-body{
+    padding:5%;
+    text-align:left ;
+}
+.modal-body input{
+    border:none;
+    border-bottom:1px solid gray;
+    margin:5px 0px 5px 0px;
+    text-align:center;
+}
+.modal-body  input[type="checkbox"]{
+    margin:15px 0px 15px 0px;
+}
+#cd,#intervention,#itemalevel{
+    width:5%;
+}
+#municipality,#brgy,#ans{
+    width:10%;
+}
+#clustername,#itemastatus{
+    width:15%;
+}
+#arboname{
+    width:75%;
+}
+#address{
+    width:75%;
+}
+#m_member,#m_arb,#f_arb,#m_non_arb,#f_non_arb,#f_member{
+    width:7%;
+}
+#ttlarb,#ttl_non_arb{
+    width:8%;
+}
+.modal-body  span b{
+    font-size:12px;
+}

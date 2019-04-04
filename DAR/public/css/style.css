@@ -1,0 +1,129 @@
+.main-header #head{
+    background-color:#2e7d32;
+    color:white;
+    font-weight: bold;
+}
+#moredetails td{
+	background-color:lightgray;
+}
+#moredetails td span{
+	font-weight:bolder;
+}
+#index{
+    clear:both;
+}
+#index img{
+    height:100px;
+    width:100px;
+    margin-bottom:2px;
+}
+#index p{
+    font-weight: bolder;
+    letter-spacing: 1px; 
+    font-size: 17px;
+    color:gray;
+}
+#elib{
+    background-color:rgb(121, 116, 116);
+    border-top:2px solid green;
+    height:100%;
+    color:white;
+    letter-spacing: 2px;
+}
+#index .col-sm-4:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+#phead{
+    /* height:18%; */
+    padding:6px;
+}
+#phead #seal{
+    float:right;
+}
+.container{
+    border:1px solid gray;
+    padding-bottom:2%;
+    border-radius:8px;
+    height:50%;
+}
+#login{
+    padding-top:8%;
+}
+#loginbox center h2{
+    margin-bottom:10%;
+}
+.loginerror{
+    color:red;
+}
+.loginerrinput{
+    border: 1px solid red;
+}
+#updateprof{
+    padding: 1% 15% 5% 15%;
+}
+#regpage{
+    padding: 1% 15% 5% 15%;
+}
+
+.wrap_404{
+    text-align:center;
+    margin-top:22%;
+    color:gray;
+}
+#home_c .col-lg-6{
+    max-height:350px;
+    overflow:auto;
+    padding:3%;
+    text-align:center;
+}
+#home_c #logo{
+    padding-left:12%;
+}
+#headlogo{
+    margin-top:25px;
+}
+
+#elib{
+    height:450px;
+    overflow-x:auto;
+}
+#elib::-webkit-scrollbar {
+    width: 8px;
+}
+#elib::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+#elib::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+#benarb_filter > label:nth-child(1) > input{
+    border-radius:2px;
+    width:250px;
+}
+#home-body{
+    padding:0% 10%;
+}
+#home_body .col-lg-6{
+    min-height: 250px;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+#home_body #map{
+    height:450px;
+    overflow-x:auto;
+}
+#map::-webkit-scrollbar {
+    width: 4px;
+}
+#map::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 4px rgba(0,0,0,0.3);
+}
+#map::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+a:hover{
+    cursor: pointer;
+}
